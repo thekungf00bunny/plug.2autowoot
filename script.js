@@ -20,4 +20,5 @@ function initListeners() {
                 rand();
                 setTimeout(function(){ document.getElementById('#woot').click(); },3000);
                 }
+        API.on(DJ_ADVANCE, fuction(){setTimeout(function(){$("#woot").click();},3000});
         });
