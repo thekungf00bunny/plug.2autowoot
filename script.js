@@ -1,12 +1,12 @@
 plug.2autowoot
 ==============
 
-THE FANCY NEW plud.dj autowoot maybe
+//THE FANCY NEW plud.dj autowoot maybe
 
 API.chatLog("Luna! script ready for action!", true);
 function initEnvironment(){
 }
-$(".background").html("<img src=\"http://www.freefever.com/stock/plug-dj-wallpaper-by-thegreatfrikken-ddmem.jpg\" style=\"width: 921px; height: 285px; left: -218.5px;\">");
+$(".background").html("<img src=\"http://freefever.com/stock/plug-dj-wallpaper-by-thegreatfrikken-ddmem.jpg\" style=\"width: 921px; height: 285px; left: -218.5px;\">");
 initEnvironment();
 if (RMEnhanced !== undefined)
     RMEnhanced.close();
@@ -29,7 +29,7 @@ RMEnhancedModel = require('app/base/Class').extend({
         API.on(API.CHAT,this.proxy.onChat)
     },
     initCSS: function() {
-		$(".background").find('img').attr('src','http://i.imgur.com/pxZ3QSM.png');
+		$(".background").find('img').attr('src','http://freefever.com/stock/plug-dj-wallpaper-by-thegreatfrikken-ddmem.jpg');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/82153790/rmplug.css">');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove()
     },
