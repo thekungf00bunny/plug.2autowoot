@@ -34,10 +34,10 @@ RMEnhancedModel = require('app/base/Class').extend({
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove()
     },
     onChat: function(data){
-		if(data.message == "!ello" && data.fromID == "5121578196fba506408bb9eb"){
+		if(data.message == "!ello" && data.fromID == "50aeb03e877b9217e2fbf374"){
             API.chatLog("Ello!",true);
         }
-		if(data.message == "!whodis" && data.fromID == "5121578196fba506408bb9eb"){
+		if(data.message == "!whodis" && data.fromID == "50aeb03e877b9217e2fbf374"){
             API.sendChat("I be Luna! Yar");
         }
     },
